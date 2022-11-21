@@ -1,0 +1,33 @@
+.header-wrap{
+    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.29);
+}
+.header {
+    
+    justify-content:space-between;
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+}
+.header .nav-button-wrap {
+    align-items: center;
+    display: flex;
+}
+
+.header .menu-item {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.header .menu-item a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.header .menu-item a:hover {
+    color: #ff00e9;
+}

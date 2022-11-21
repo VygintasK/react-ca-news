@@ -1,0 +1,20 @@
+.Secondary-News {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .Secondary-News .News-Article {
+    width: calc((100% - 30px) / 2);
+  }
+  
+  .Secondary-News .News-Article a {
+    display: flex;
+    column-gap: 20px;
+  }
+  
+  .Secondary-News .News-Article .image-wrapper {
+    width: 160px;
+    height: 40px;
+  }

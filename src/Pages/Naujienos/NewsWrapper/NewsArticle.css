@@ -1,0 +1,9 @@
+.News-Article a {
+    text-decoration: none;
+    color: black;
+}
+  
+.News-Article .info-wrapper .category {
+    color: #1200ff;
+    text-transform: uppercase;
+}
